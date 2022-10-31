@@ -7,11 +7,11 @@ public class Player {
         return numPlayers;
     }
 
-    public Player(String name){
+    public Player(String name) {
         this.name = name;
-        if(numPlayers == 0){
+        if (numPlayers == 0) {
             symbol = "O";
-        }else {
+        } else {
             symbol = "X";
         }
         numPlayers++;
@@ -22,7 +22,7 @@ public class Player {
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return name;
     }
 
